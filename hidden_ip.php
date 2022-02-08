@@ -86,7 +86,8 @@ function set_hidden_ip_js(){
  * Own directory script to set salted frontend IP.
  */
 function add_hip_scripts(){
-    wp_enqueue_script ('hidden-ip', plugins_url('/hidden-ip/js/set_hip.js'), false, null, true);
+    $url = plugin_dir_url(__FILE__) . "/js/set_hip.js";
+    wp_enqueue_script ('hidden-ip', $url, false, null, true);
 }
 
 add_action( 'wp_enqueue_scripts', 'add_hip_scripts' );

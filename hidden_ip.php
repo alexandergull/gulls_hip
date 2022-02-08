@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Hidden JS check field
-Plugin URI: http://wordpress.org
-Description: This plugin tests JS.
+Plugin Name: Gull's Hidden IP (HIP)
+Plugin URI: https://github.com/alexandergull/gulls_hip
+Description: This plugin compare frontend user IP address with backend one.
 Version: 1.0
 Author: Alexander Gull
 Author URI: @alexandergull

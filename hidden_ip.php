@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Gull's Hidden IP (HIP)
+Plugin Name: Gull's Hidden IP field (HIP)
 Plugin URI: https://github.com/alexandergull/gulls_hip
 Description: This plugin compare frontend user IP address with backend one.
 Version: 1.0
